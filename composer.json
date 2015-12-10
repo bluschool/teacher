@@ -1,0 +1,20 @@
+{
+    "name": "bluschool/teacher",
+    "description": "Teacher for Administrator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "m4ch1n3",
+            "email": "shawonsim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "classmap": [
+        "resources/database/migrations"
+      ],
+      "psr-4": {
+        "Bluschool\\Teacher\\" : "src/"
+      }
+    }
+}
